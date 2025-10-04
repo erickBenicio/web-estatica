@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(247, 174, 3);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1 {
+  color: silver;
+  text-align: center;
+  font-style:italic;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.barraSuperior {
+ 
+  width: 100%;                 
+  height: 70px;                
+  background-color: #2a2f3a;   
+  display: flex;               
+  justify-content: center;     
+  align-items: center;         
+  padding: 0 30px;             
+}
+
+
+
+
+
+.grid {
+  display: grid;
+  /*solo tengo 4 cartas por fila*/
+  grid-template-columns: repeat(4,1fr); /*podria hacerse responsive para que se amolde segun el tamaño de pantalla, en este caso queda fijo*/
+  gap: 20px;
+  padding: 25px;
+}
+
+
+.card {
+/* Utilizo flex para organizar los elementos que tendra la carta, en este caso estaran en una columna*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  background-color: #2a2f3a;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  /*una transicion para que al colocar el puntero sobre la carta esta tenga animacion*/
+  transition: transform 0.2s;
+  text-align: center;
+  /* default para que el puntero no cambie a texto al pasar por encima de la card*/
+  cursor: default;   
+}
+     /* con hover agrego animacion que hara crecer la carta al pasar el puntero*/
+.card:hover {
+  transform: scale(1.05);
+}
+    
+.card img {
+  width: 150px;        
+  height: auto;        
+  display: block;      
+  margin: 0 auto 10px; 
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 1.2em;
+  margin: 15px 0;
+  cursor: default;
+}
+
+.price {
+  color: #ffcc01;
+  font-weight: bold;
+  cursor: default;
+}
+
+.details {
+  font-size: 0.9em;
+  color: #bbb;
+  margin: 5px 0;
+  cursor: default;
+}
+
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-top: 8px;
+  cursor: default;
+}
+
+.legendary {
+  background-color: gold;
+  cursor: default;
+}
+
+.exclusive {
+  background-color: red;
+  cursor: default;
+}
+
+.rare{
+    background-color: blueviolet;
+    cursor: default;
+}
+
+.comun{
+    background-color: cadetblue;
+    cursor: default;
+}
