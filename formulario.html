@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link   rel=" stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+            <form class="formulario" action="servidor-ejemplo.com">
+                <fieldset>
+                <legend>Para registrarte completa todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="Nombre">Nombre:</label><br>
+                        <input class="input-text" type="text" placeholder="Nombre" required>
+                        <br>
+                    </div>
+                    <div class="campo">
+                        <label for="Apellido">Apellido:</label><br>
+                        <input class="input-text" type="text" placeholder="Apellido" required>
+                        <br>
+                    </div>
+                    <div class="campo">
+                        <label for="DNI">DNI:</label><br>
+                        <input class="input-text" type="number" placeholder="Ingrese DNI sin puntos" required><br>
+                    </div>
+                    <div class="campo">
+                        <label for="nacimiento">Fecha de nacimiento:</label><br>
+                        <input class="input-text" type="date" required />
+                        <br>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Contrasena">Contraseña</label><br>
+                        <input class="input-text" type="password" placeholder="Ingrese su contrasena" required/><br>
+                        <label for="Seguridad">La contrasenia debe constar de minimo 8 caracteres</label><br>
+                        <br>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div class="campo">
+                        <label for="check">Lei y estoy de acuerdo con los T&C</label><br>
+                        <input type="checkbox" id="check" required/>
+                    </div>
+
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                </div>
+                </fieldset>
+            </form>
+            </section>
+        </main>
+    </body>
+
+
+</html>
