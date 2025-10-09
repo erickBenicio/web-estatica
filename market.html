@@ -2,14 +2,31 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mercado skins</title>
+  <!-- PERMITE ADAPTAR LA PAGINA A LAS DEMENSIONES DE LA PANTALLA-->
+  <meta name ="viewport" content="width=device-widht">
+
+  <!--OPEN GRAPH QUE INDICARA EL COMO SE VERA LA PAGINA AL COMPARTIR SU LINK-->
+  <meta property="skins market" content="mercado de skins cs2">
+  <meta property="og:image" content="./images/ibuypwer.png">
+
+
+  <title>Skin Market CS</title>
+  
   <!-- enlace al archivo css -->
   <link rel="stylesheet" href="stylemarket.css">
 </head>
 <body>
     
-  <header class="barraSuperior">       
-        <h1 class="logo"> Skins Market</h1>
+  <header class="barraSuperior">    
+      <!-- La etiqueta <a> se utiliza para transformar el contenido a enlace-->
+          <!-- href indica la direccion a la que apunta el enlace de <a> -->   
+        <a  href="market.html">
+          <img src="./images/pegatina ibuypwer.png" alt="icono pagina principal" class="logo">
+        </a>
+        <h1 class="tituloPrincipal"> SKINS MARKET </h1>
+        <a href="formulario.html" target="_blank" class="inicioSesion">
+          INICIAR SESION
+        </a>
   </header>
 
     <!--utilizo grid para distribur las cartas de cada arma dentro de la web, tanto en horizontal como verticalmente-->
