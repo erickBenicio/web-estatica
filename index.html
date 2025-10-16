@@ -1,113 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Catálogo y mercado de skins de Counter-Strike 2">
-    <title>FAI Skins</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAI Skins Market</title>
+    <meta name="description"
+        content="Mercado de skins y cajas de Counter Strike 2. Compra, venta y catálogo organizado.">
     <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="nav-bg">
-            <h1 class="logo">FAI Skins</h1>
-            <nav class="nav-header contenedor">
-                <ul class="nav-header"></ul>
-                <a href="#"> Inicio </a>
-                <a href="market.html"> Mercado </a>
-                <a href="#"> Venta </a>
-                <a class="barraSuperior"> <label for="search">🔎<input type="text" placeholder="Buscar..."></label></a>
-                <a href="#">Iniciar Sesion</a>
-                <a href="formulario.html">Registrarse</a>
-            </nav>
-        </div>
+    <header class="site-header">
+        <nav class="nav-header contenedor">
+            <h1 class="logo"><a href="index.html">FAI Skins</a></h1>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Venta</a></li>
+                <li><a href="market.html">Mercado</a></li>
+                <li>
+                    <form role="search">
+                        <label for="search">🔎</label>
+                        <input type="search" id="search" placeholder="Buscar...">
+                    </form>
+                </li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="formulario.html">Registrarse</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="inicio" class="contenedor">
-        <header class="shadow-caja">
-            <h2 class="shadow-dance-text">Skins - Market</h2>
+    <main id="contenido" class="contenedor">
+        <header class="main-header">
+            <h2>Counter Strike 2 Skins</h2>
+            <p class="p-header">Catálogo y mercado de skins y cajas</p>
         </header>
-        
-        <section class="contenedor sombra">
+
+        <section class="contenedor-sombra">
             <h2>Mercado: Skins hasta 30% menos!</h2>
-            <div class="contenido-main">
-                <article class="contenido">
+            <div class="grid">
+                <article class="card">
                     <h3>Cajas</h3>
-                    <div class=" icono">
-                        <img src=".\images\caja.png" alt="Caja CS" style=" width: 200px; height: 100px;">
-                    </div>
-                    <h3>Desde $0.25</h3>
+                    <figure>
+                        <img class="product-img" src="./images/caja.png" alt="Caja de CS:GO con skins" />
+                        <figcaption>Explorá cajas disponibles</figcaption>
+                    </figure>
                 </article>
 
-                <article class="contenido">
+                <article class="card">
                     <h3>Skins</h3>
-                    <div class="icono">
-                        <img src=".\images\awp.png" alt="AWP Dragon Lore" style=" width: 200px; height: 100px;">
-                    </div>
-                    <h3>%30 menos que Steam</h3>
+                    <figure>
+                        <img class="product-img" src="./images/awp.png" alt="Skin AWP Dragon Lore en exhibición" />
+                        <figcaption>Skins por categoría y rareza</figcaption>
+                    </figure>
                 </article>
 
-                <article class="contenido">
+                <article class="card">
                     <h3>A un click!</h3>
-                    <div class="icono">
+                    <figure class="icono">
                         <a href="market.html">
-                            <img src=".\gifs\ct.webp" alt="CT bailando" class="skins"> </a>
-                    </div>
-                    <h3>Que esperas?</h3>
+                            <img src="./gifs/ct.webp" alt="Counter Terrorist bailando" class="skins">
+                        </a>
+                    </figure>
+                    <p>¿Qué esperas?</p>
                 </article>
             </div>
         </section>
 
         <section class="contenedor sombra">
-            <h2>Tu proxima skin esta aca!</h2>
-            <div class="contenido-main">
-                <article class="contenido">
+            <h2>Tu próxima skin está acá!</h2>
+            <div class="grid">
+                <article class="card">
                     <h3>Populares</h3>
-                    <div class=" icono2">
-                        <img src=".\images\preview usp calavera.png" alt="inspeccion usp" class="skins">
-                    </div>
+                    <figure>
+                        <img class="product-img" src="./images/preview usp calavera.png" alt="USP con calavera" />
+                    </figure>
                     <p>🔥</p>
                 </article>
 
-                <article class="contenido">
+                <article class="card">
                     <h3>Classic</h3>
-                    <div class="icono2">
-                        <img src=".\images\m4a4 howl.png" alt="m4 howl" class="skins">
-                    </div>
+                    <figure>
+                        <img class="product-img" src="./images/m4a4 howl.png" alt="M4A4 Howl" />
+                    </figure>
                     <p>🪙</p>
                 </article>
 
-                <article class="contenido">
-                    <h3>Gloves</h3>
-                    <div class="icono2">
-                        <img src=".\images\Sport gloves vice.png" alt="Guantes" class="skins">
-                    </div>
+                <article class="card">
+                    <h3>Guantes</h3>
+                    <figure class="icono2">
+                        <img class="product-img" src="./images/Sport gloves vice.png" alt="Sport Gloves Vice" />
+                    </figure>
                     <p>🧤</p>
                 </article>
-            </div>
-        </section>
-
-        <section class="contenedor sombra">
-            <h2> En construccion!</h2>
-            <div class="contenido-main">
-                <section class="contenido">
-
-                </section>
-
             </div>
         </section>
     </main>
 
     <footer class="pie">
-        <h3>Seguinos en: </h3>
-        <div>
-            <a href="https://www.instagram.com/" target="_blank"> <img src=".\images\ig.png" alt="Instagram"
-                    style=" width: 30x; height: 60px;"></a>
-            <a href="https://github.com/" target="_blank"><img src=".\images\git2.png" alt="GitHub"
-                    style=" width: 70px; height: 70px;"></a>
+        <div class="contenedor">
+            <p>Seguinos en:</p>
+            <ul class="social">
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <img src="./images/ig.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                        <img src="./images/git2.png" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+            <p class="p-footer">Laboratorio de programación 3° Año - Web estática</p>
         </div>
     </footer>
 </body>
