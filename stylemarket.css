@@ -110,6 +110,28 @@ body {
   color:black;
 }
 
+
+#contenedor-notificaciones{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: block;
+  
+}
+
+.notificacion{
+  background-color: green;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
 .legendary {
   background-color: gold;
   cursor: default;
