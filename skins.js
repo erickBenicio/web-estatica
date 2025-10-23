@@ -44,14 +44,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-        /*  card.addEventListener("click", () => {
-                    const mensaje = document.createElement("div");
-                    mensaje.textContent = `Añadiste la skin al carrito`;
-                    mensaje.classList.add("notificacion");
-                    contenedorNoti.appendChild(mensaje);
-                    setTimeout(() => {
-                    }
-                    )
-
-                    
-                });*/
+       
