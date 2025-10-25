@@ -1,6 +1,7 @@
 // Archivo: skins.js
 document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("contenedor-skins");
+    const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
     fetch("skins.json")
         .then(response => {
@@ -23,6 +24,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 `;
 
+                card.addEventListener("click", () => {
+                    const mensaje = document.createElement("div");
+                    mensaje.textContent = `Agregada con exito`;
+                    mensaje.classList.add("notificacion");
+                    contenedorNoti.appendChild(mensaje);
+                    setTimeout(() => {
+                        mensaje.remove();
+                    },2000);
+                })
+
                 contenedor.appendChild(card);
             });
         })
@@ -31,3 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
             contenedor.innerHTML = "<p>No se pudieron cargar las skins.</p>";
         });
 });
+
+
+       
