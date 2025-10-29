@@ -7,28 +7,34 @@ body {
 
 .barraSuperior {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items:center;
+  justify-content:space-between;
   width: 100%;                 
   height: 55px;                
   background-color: #2a2f3a;                                  
 }
 
+/* Este CSS es para el NUEVO div que creaste */
+.logo-y-titulo {
+  display: flex;        /* <-- ESTA LÍNEA es la que los pone uno al lado del otro */
+  align-items:center;
+    /* <-- Esta los centra verticalmente */        /* <-- Esto añade un espacio entre ellos */
+}
+
 .barraSuperior .logo{
   width: 60px;
-  padding:15px;
-  height: auto;
   cursor: pointer;
+  padding: 10px;
 }
 
 
  .barraSuperior .tituloPrincipal{
-  position:absolute;
-  left: 50%;
-  transform: translateX(-50%);
   color: silver;
   font-style:italic;
+  font-size: 20px;
   cursor: default;
+  padding: 35px;
+  
   
 }
 
@@ -48,7 +54,7 @@ body {
 .grid {
   display: grid;
   /*solo tengo 4 cartas por fila*/
-  grid-template-columns: repeat(4,1fr); /*podria hacerse responsive para que se amolde segun el tamaño de pantalla, en este caso queda fijo*/
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); /*podria hacerse responsive para que se amolde segun el tamaño de pantalla, en este caso queda fijo*/
   gap: 20px;
   padding: 25px;
 }
@@ -56,16 +62,18 @@ body {
 
 .card {
 /* Utilizo flex para organizar los elementos que tendra la carta, en este caso estaran en una columna*/
+  position:relative;
   display: flex;
   flex-direction: column;
   align-items: center;  
+  text-align: center;
   background-color: #2a2f3a;
   border-radius: 12px;
-  padding: 15px;
+  padding: 15px 15px 40px 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   /*una transicion para que al colocar el puntero sobre la carta esta tenga animacion*/
   transition: transform 0.2s,border 0.3s, box-shadow 0.3s ease;
-  text-align: center;
+  overflow: hidden;
   /* default para que el puntero no cambie a texto al pasar por encima de la card*/
   cursor: default;   
   border: 3px solid transparent;
@@ -83,6 +91,40 @@ body {
   display: block;      
   margin: 0 auto 10px; 
   border-radius: 6px;
+  
+}
+
+.botonComprar{
+  position: absolute;
+  width: 100%;
+  font: italic;
+  cursor: pointer;
+  background-color:silver;
+  color: black;
+  border:none;
+  border-radius: 0 0 10px 10px;
+  height: 40px;
+
+  /*botomm y su valor hacen que lo que se vaya a desplegar sea
+  mas abajo o arriba de la posicion donde esta el objeto del cual nace */
+  bottom:-20px;
+  left:0;
+  right:0;
+
+  /* opacity 0 lo hace invisible para que luego el hover lo muestre solo cuando tengo el puntero encima*/
+  opacity: 0;
+  transition: opacity 0,3s ease;
+  transition-delay: 0s;
+
+
+}
+
+.card:hover .botonComprar{
+  opacity: 1;
+  border: 3px solid silver;
+  transition-delay: 0.35s;
+  
+
 }
 
 .title {
@@ -158,8 +200,8 @@ body {
     cursor: default;
 }
 
-.carrito{
-  background-color: black;
+.carro{
+  
   width: 70px;
   height: 70px;
   display: flex;
@@ -169,6 +211,8 @@ body {
   z-index: 1000;
   border-radius: 20%;
   cursor: pointer;
+
+
 
   
 }
