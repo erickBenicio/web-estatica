@@ -22,9 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="tag ${skin.rareza}">
                 ${skin.rareza.charAt(0).toUpperCase() + skin.rareza.slice(1)}
                 </div>
+                <div class= "botonComprar">Comprar</div>
                 `;
 
-                card.addEventListener("click", () => {
+                //Esta constante tendra al elemento boton que luego se le asignara un evento
+                const boton = card.querySelector(".botonComprar");
+
+                //A boton se le da la funcionalidad de poder agregar ese articulo al futuro carrito
+                boton.addEventListener("click", () => {
                     const mensaje = document.createElement("div");
                     mensaje.textContent = `Agregada con exito`;
                     mensaje.classList.add("notificacion");

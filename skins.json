@@ -60,7 +60,7 @@
     "imagen": "./images/ump scaffold.png",
     "precio": 1688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "common",
+    "rareza": "comun",
     "slug": "ump45-scaffold",
     "tipo": "smg",
     "coleccion": "Spectrum Case"
