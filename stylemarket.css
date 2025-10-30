@@ -50,7 +50,7 @@ body {
   /*solo tengo 4 cartas por fila*/
   grid-template-columns: repeat(4,1fr); /*podria hacerse responsive para que se amolde segun el tamaño de pantalla, en este caso queda fijo*/
   gap: 20px;
-  padding: 25px;
+  padding: 10px;
 }
 
 
@@ -143,18 +143,18 @@ body {
   cursor: default;
 }
 
-.exclusive {
+.Covert { /*exclusive*/
   background-color: red;
   cursor: default;
 }
 
-.rare{
+.Restricted { /*rare*/
     background-color: blueviolet;
     cursor: default;
 }
 
-.comun{
-    background-color: cadetblue;
+.mil-spec { /*common  AGREGAR MAS*/
+    background-color: rgb(31, 68, 231);
     cursor: default;
 }
 

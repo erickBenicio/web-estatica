@@ -27,7 +27,7 @@
     "imagen": "./images/awp phoboos.png",
     "precio": 5688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "rare",
+    "rareza": "Restricted",
     "slug": "awp-phobos",
     "tipo": "awp",
     "coleccion": "Gamma Case"
@@ -38,7 +38,7 @@
     "imagen": "./images/m4a4 asimov.png",
     "precio": 45688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "exclusive",
+    "rareza": "Covert",
     "slug": "m4a4-asiimov",
     "tipo": "rifle",
     "coleccion": "Winter Offensive Case"
@@ -49,7 +49,7 @@
     "imagen": "./images/ak neon rider.png",
     "precio": 25688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "exclusive",
+    "rareza": "Covert",
     "slug": "ak47-neon-rider",
     "tipo": "rifle",
     "coleccion": "Horizon Case"
@@ -60,7 +60,7 @@
     "imagen": "./images/ump scaffold.png",
     "precio": 1688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "common",
+    "rareza": "mil-spec",
     "slug": "ump45-scaffold",
     "tipo": "smg",
     "coleccion": "Spectrum Case"
@@ -71,7 +71,7 @@
     "imagen": "images/ak47-fire-serpent.png",
     "precio": 30688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "exclusive",
+    "rareza": "Covert",
     "slug": "ak47-fire-serpent",
     "tipo": "rifle",
     "coleccion": "Operation Bravo Collection"
@@ -82,7 +82,7 @@
     "imagen": "images/awp-boom.png",
     "precio": 5900,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "rare",
+    "rareza": "Restricted",
     "slug": "awp-boom",
     "tipo": "awp",
     "coleccion": "eSports 2013 Case"
@@ -104,7 +104,7 @@
     "imagen": "images/awp prince.png",
     "precio": 110688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "exclusive",
+    "rareza": "Covert",
     "slug": "awp-prince",
     "tipo": "awp",
     "coleccion": "Canals Collection"
@@ -159,7 +159,7 @@
     "imagen": "images/awp-onitaji.png",
     "precio": 70688,
     "detalle": "BS 0.46 - 0.47",
-    "rareza": "legendary",
+    "rareza": "Covert",
     "slug": "awp-onitaji",
     "tipo": "awp",
     "coleccion": "The Operation Hydra Collection"
@@ -170,9 +170,20 @@
     "imagen": "images/usp-printstream.png",
     "precio": 10688,
     "detalle": "FT 0.16 - 0.17",
-    "rareza": "legendary",
+    "rareza": "Covert",
     "slug": "usp-printstream",
     "tipo": "pistol",
     "coleccion": "The Recoil Collection"
+  },
+  {
+    "id": 17,
+    "titulo": "Gloves Vice",
+    "imagen": "images/Sport Gloves Vice.png",
+    "precio": 688,
+    "detalle": "FN 0.03 - 0.04",
+    "rareza": "legendary",
+    "slug": "gloves-vice",
+    "tipo": "Gloves",
+    "coleccion": "Clutch Case"
   }
 ]

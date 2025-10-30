@@ -1,16 +1,37 @@
 // Archivo: skins.js
-document.addEventListener("DOMContentLoaded", () => {
-    const contenedor = document.getElementById("contenedor-skins");
-    const contenedorNoti = document.getElementById("contenedor-notificaciones");
+       //Codigo filtro para el market
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const contenedor = document.getElementById("contenedor-skins");
+        const filtroRareza = document.getElementById("filtro-rareza");
+        let skinsData = [];  // para almacenar el JSON completo
+        const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
     fetch("skins.json")
-        .then(response => {
-            if (!response.ok) throw new Error("Error al cargar el archivo JSON");
-            return response.json();
-        })
+        .then(res => res.json())
         .then(data => {
-            console.log("Datos cargados:", data); // Para verificar
-            data.forEach(skin => {  // ← CAMBIO CLAVE
+            skinsData = data;  // guardo todos los datos
+            mostrarSkins(skinsData);  // muestro todas al inicio
+        })
+        .catch(err => {
+            console.error("Error al cargar skins:", err);
+            contenedor.innerHTML = "<p>No se pueden mostrar skins.</p>";
+        });
+
+        filtroRareza.addEventListener("change", () => {
+            const seleccion = filtroRareza.value;
+            let filtradas;
+            if (seleccion === "todas") {
+                filtradas = skinsData;
+            } else {
+                filtradas = skinsData.filter(skin => skin.rareza === seleccion);
+            }
+            mostrarSkins(filtradas);
+        });
+
+        function mostrarSkins(lista) {
+            contenedor.innerHTML = "";  // limpio el contenedor
+            lista.forEach(skin => {  // ← CAMBIO CLAVE
                 const card = document.createElement("div");
                 card.classList.add("card");
 
@@ -35,13 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 })
 
                 contenedor.appendChild(card);
-            });
-        })
-        .catch(error => {
-            console.error("Error al cargar las skins:", error);
-            contenedor.innerHTML = "<p>No se pudieron cargar las skins.</p>";
-        });
-});
+            })
+            
+        }});
+
 
 
        
