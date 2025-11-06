@@ -7,7 +7,7 @@
         let skinsData = [];  // para almacenar el JSON completo
         const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
-    fetch("skins.json")
+    fetch('./data/skins.json')
         .then(res => res.json())
         .then(data => {
             skinsData = data;  // guardo todos los datos
