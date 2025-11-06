@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
-    <link rel="stylesheet" href="carrito.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="carrito.css">
 </head>
+
 <body>
 
-      <header class="barraSuperior">    
-      <!-- La etiqueta <a> se utiliza para transformar el contenido a enlace-->
-          <!-- href indica la direccion a la que apunta el enlace de <a> -->   
-        
-        <a class= "logo-y-titulo">
-            <div  href="market.html">
-          <img src="./images/pegatina ibuypwer.png" alt="icono pagina principal" class="logo">
-            </div>
-            <h1 class="tituloPrincipal"> Carrito </h1>
-        </a>
-            
-        <button onclick="window.location.href='formulario.html'" class="inicioSesion">
-          Iniciar sesion
-        </button>
+  <header class="barraSuperior">
+    <!-- La etiqueta <a> se utiliza para transformar el contenido a enlace-->
+    <!-- href indica la direccion a la que apunta el enlace de <a> -->
+
+    <div class="logo-y-titulo">
+      <a href="market.html">
+        <img src="./images/pegatina ibuypwer.png" alt="icono pagina principal" class="logo">
+      </a>
+      <h1 class="tituloPrincipal"> Carrito </h1>
+    </div>
+
+    <button onclick="window.location.href='formulario.html'" class="inicioSesion">
+      Iniciar sesion
+    </button>
   </header>
 
-  <div class="cuerpoSkinsSeleccionadas"> 
+  <div class="cuerpoSkinsSeleccionadas">
+    
 
-    <div class="CardCarrito">
-        <div class="nombre"> AWP Dlore</div>
-        <div class="imagen"> imagen</div>
-        <div class="precio"> precio</div>
-        <div class="descripcion"> descripcion</div>
+    <div class="carrito-lleno oculto">
+      <div class="columnaItems">
+      </div>
+     
+
     </div>
 
-     <div class="CardCarrito">
-        <div class="nombre"> AWP Dlore</div>
-        <div class="imagen"> imagen</div>
-        <div class="precio"> precio</div>
-        <div class="descripcion"> descripcion</div>
-    </div>
+     <div class="cuerpoCalculosPrecio">
+        <div class="detallesCompra"> DETALLE DE COMPRA</div>
+        <div class="impuesto"> Impuesto</div>
+        <div class="totalMontoCompra"> Total</div>
+        <button class="botonComprar"> COMPRAR</button>
 
-     <div class="CardCarrito">
-        <div class="nombre"> AWP Dlore</div>
-        <div class="imagen"> imagen</div>
-        <div class="precio"> precio</div>
-        <div class="descripcion"> descripcion</div>
-    </div>
+      </div>
 
-     <div class="CardCarrito">
-        <div class="nombre"> AWP Dlore</div>
-        <div class="imagen"> imagen</div>
-        <div class="precio"> precio</div>
-        <div class="descripcion"> descripcion</div>
-    </div>
 
 
 
   </div>
-    
+  <div class="carrito-vacio">
+    EL CARRO ESTA VACIO
+  </div>
+
+
+
+  </div>
+
+
+
+<script src="carrito.js"></script>
+<script src="carritoLogica.js"></script>
+
 </body>
+
+
+
+
 </html>

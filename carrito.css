@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(247, 174, 3);
+    background-color: rgb(255, 145, 0);
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -52,37 +52,155 @@ body {
     border-radius: 10%;
 
 }
+/*
+.oculto{
+    display: none !important;
+}
+*/
+
 
 .cuerpoSkinsSeleccionadas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
+    justify-content: space-between;
     gap: 20px;
+    padding:20px;
 
     top: 100px;
-    left: 30px;
+    left: 20px;
 
     height: 1000px;
     width: 95%;
     background-color: #2a2f3a;
-
-    border-radius: 15px;
-    
-
 }
 
-.CardCarrito {
-    position: relative;
-    display: flex;
-    flex-direction:row;
-    align-items:normal;
-    text-align: center;
-    background-color: #3e4553;
-    border-radius: 7px;
-    
+.columnaItems{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+    max-height: 130vh;
+    overflow-y: auto;
+}
 
-    height: 60px;
-    width: 35%;
-    top: 15px;
-    left: 10px;
+.cardCarrito {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;         /* ¡LA CLAVE! Pone los items en fila */
+    align-items: center;      /* Centra verticalmente la imagen y el texto */
+    background-color: #3e4553; /* Tu color de fondo */
+    border-radius: 8px;
+    padding: 12px 15px;
+    width: 400px;
+    height: 100xpx;       /* Espacio interno para que no se pegue */
+    
+    /* Un borde sutil que combina con tu fondo */
+    border: 1px solid #525a6c; 
+    
+    /* Sombra suave para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    /* Transición suave para el efecto hover */
+    transition: all 0.2s ease-in-out;
+    cursor:default;
+}
+
+/* --- Efecto "Hover" --- */
+.cardCarrito:hover {
+    transform: translateY(-3px); /* Salta un poco hacia arriba */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #4a5363; /* Se aclara un poco */
+}
+
+.imgYNombre{
+    display:flex;
+    align-items: center;
+    
+}
+
+/* --- Estilos para la imagen del arma --- */
+.imgYNombre .imagenArma {
+    height: 50px;  /* Una altura fija */
+    width: 90px;   /* Un ancho fijo para uniformidad */
+    
+    /* Esto es clave para que las skins (que tienen formas raras) 
+       se vean completas y no estiradas */
+    object-fit: contain; 
+    
+    margin-right: 15px; /* Espacio entre la imagen y el nombre */
+    flex-shrink: 0;     /* Evita que la imagen se encoja */
+    
+    /* (Opcional) Fondo para ver si la imagen falla */
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* --- Estilos para el nombre del arma --- */
+.cardCarrito .nombre {
+    font-size: 1.1rem;  /* Tamaño de letra (18px aprox) */
+    font-weight: 600;   /* Semi-negrita */
+    color: #e5e5e5;     /* Un color blanco/plata claro */
+    
+    /* Evita que el texto se parta en dos líneas */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardCarrito .precio{
+    color:yellow;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-overflow: ellipsis;
+    
+}
+
+.cardCarrito .botonSacar{
+    color:red;
+    cursor:pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+    
+}
+
+.botonSacar:hover{
+    transform: scale(1.1);
+}
+
+.cuerpoCalculosPrecio{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    padding: 10px 10px;
+    
+    background-color:#3e4553;
+    border-radius:7px;
+}
+
+
+.cuerpoCalculosPrecio .detallesCompra{
+    color:silver;
+    padding:10px;
+}
+
+.cuerpoCalculosPrecio .impuesto{
+    color:red;
+    padding:0px 5px;
+}
+
+.cuerpoCalculosPrecio .totalMontoCompra{
+    color: silver;
+    padding:100px 5px
+}
+
+.cuerpoCalculosPrecio .botonComprar{
+    height: 30px;
+    width: 200px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+
 }

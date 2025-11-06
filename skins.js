@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 //A boton se le da la funcionalidad de poder agregar ese articulo al futuro carrito
                 boton.addEventListener("click", () => {
+                    Carrito.agregarItem(skin);
                     const mensaje = document.createElement("div");
                     mensaje.textContent = `Agregada con exito`;
                     mensaje.classList.add("notificacion");
