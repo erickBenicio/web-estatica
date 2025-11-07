@@ -2,7 +2,7 @@
   {
     "id": 1,
     "titulo": "AWP Dragon Lore",
-    "imagen": "./images/awp-dlore.png",
+    "imagen": "/images/awp/awp-dlore.png",
     "precio": 171380,
     "detalle": "FT 0.27 - 0.38",
     "rareza": "legendary",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "titulo": "Butterfly Knife Ruby",
-    "imagen": "./images/mariposa ruby.png",
+    "imagen": "/images/cuchillos/mariposa ruby.png",
     "precio": 35688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "titulo": "AWP Phobos",
-    "imagen": "./images/awp phoboos.png",
+    "imagen": "/images/awp/awp phoboos.png",
     "precio": 5688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Restricted",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "titulo": "M4A4 Asiimov",
-    "imagen": "./images/m4a4 asimov.png",
+    "imagen": "/images/rifles/m4a4 asiimov.png",
     "precio": 45688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "titulo": "AK-47 Neon Rider",
-    "imagen": "./images/ak neon rider.png",
+    "imagen": "/images/rifles/ak47 neon rider.png",
     "precio": 25688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "titulo": "AK-47 Fire Serpent",
-    "imagen": "images/ak47-fire-serpent.png",
+    "imagen": "images/rifles/ak47-fire-serpent.png",
     "precio": 30688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "titulo": "AWP BOOM",
-    "imagen": "images/awp-boom.png",
+    "imagen": "images/awp/awp-boom.png",
     "precio": 5900,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Restricted",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "titulo": "Bayoneta M9 Emerald",
-    "imagen": "images/Bayoneta M9-Emerald.png",
+    "imagen": "images/cuchillos/Bayoneta M9-Emerald.png",
     "precio": 120688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "titulo": "AWP Prince",
-    "imagen": "images/awp prince.png",
+    "imagen": "images/awp/awp prince.png",
     "precio": 110688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -145,7 +145,7 @@
   {
     "id": 14,
     "titulo": "AWP Gungir",
-    "imagen": "images/awp gungir.png",
+    "imagen": "./public/images/awp/awp gungir.png",
     "precio": 170688,
     "detalle": "FT 0.06 - 0.10",
     "rareza": "legendary",
@@ -187,3 +187,4 @@
     "coleccion": "Clutch Case"
   }
 ]
+
