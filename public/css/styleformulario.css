@@ -1,0 +1,208 @@
+:root {
+    /* Fondos */
+    --color-background-negro: #0D0D0F; 
+    --color-background-seccion: #1A1A1D; 
+    --color-background-card: #FFB000; 
+
+    --color-primary: #FFB000;    
+    --color-secondary: #14C7E8;  
+
+    /* textoo */
+    --color-texto-light: #F5F5F5;  
+    --color-texto-dark: #1A1A1D;  
+    --color-texto-muted: #999999; 
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/******* BODY ********/
+
+body {
+    background-color: var(--color-background-negro);
+    color: var(--color-texto-light);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/******* HEADER ********/
+
+.header {
+    background-color: var(--color-background-seccion);
+    border-bottom: 2px solid var(--color-primary);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primary);
+    /* Efecto de brillo sutil */
+    text-shadow: 0 0 10px rgba(255, 176, 0, 0.6), 0 0 20px rgba(255, 176, 0, 0.4);
+    letter-spacing: 1px;
+    font-size: 2em;
+    margin: 0;
+}
+
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; 
+}
+
+.link {
+    color: var(--color-texto-light);
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: block; 
+}
+
+.link:hover {
+    color: var(--color-secondary);
+    background-color: rgb(20 199 232 / 0.1);
+}
+
+/******* MAIN ********/
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: var(--color-background-seccion);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset {
+    border: 1px solid var(--color-texto-muted);
+    border-radius: 8px;
+    padding: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    padding: 10px;
+    border: 1px solid var(--color-texto-muted);
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: var(--color-background-seccion);
+    color: var(--color-texto-light);    
+}
+
+input[type="submit"] {
+    background-color: var(--color-secondary);
+    color: var(--color-texto-dark);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-secondary);
+}
+
+.titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+/******* FOOTER ********/
+
+footer {
+    background-color: var(--color-background-seccion);
+    color: var(--color-texto-muted);
+    padding: 20px 0;
+    border-top: 2px solid var(--color-texto-muted);
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+footer img:hover {
+    opacity: 0.8;
+}   
+
+.p-footer {
+    margin-top: 10px;
+}
