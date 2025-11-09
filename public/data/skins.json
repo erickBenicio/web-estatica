@@ -1,7 +1,12 @@
 [
   {
     "id": 1,
+<<<<<<< HEAD
     "titulo": "AWP Dragon Lore",
+=======
+    "titulo": "Dragon Lore",
+    "modelo": "AWP",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "/images/awp/awp-dlore.png",
     "precio": 171380,
     "detalle": "FT 0.27 - 0.38",
@@ -12,7 +17,12 @@
   },
   {
     "id": 2,
+<<<<<<< HEAD
     "titulo": "Butterfly Knife Ruby",
+=======
+    "titulo": "Butterfly Ruby",
+    "modelo": "Knife",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "/images/cuchillos/mariposa ruby.png",
     "precio": 35688,
     "detalle": "FN 0.03 - 0.04",
@@ -23,7 +33,12 @@
   },
   {
     "id": 3,
+<<<<<<< HEAD
     "titulo": "AWP Phobos",
+=======
+    "titulo": "Phobos",
+    "modelo": "AWP",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "/images/awp/awp phoboos.png",
     "precio": 5688,
     "detalle": "FN 0.03 - 0.04",
@@ -34,8 +49,14 @@
   },
   {
     "id": 4,
+<<<<<<< HEAD
     "titulo": "M4A4 Asiimov",
     "imagen": "/images/rifles/m4a4 asiimov.png",
+=======
+    "titulo": "Asiimov",
+    "modelo": "M4A4",
+    "imagen": "/images/rifles/m4a4 asimov.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 45688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -45,8 +66,14 @@
   },
   {
     "id": 5,
+<<<<<<< HEAD
     "titulo": "AK-47 Neon Rider",
     "imagen": "/images/rifles/ak47 neon rider.png",
+=======
+    "titulo": "Neon Rider",
+    "modelo": "AK-47",
+    "imagen": "/images/rifles/ak neon rider.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 25688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -56,7 +83,12 @@
   },
   {
     "id": 6,
+<<<<<<< HEAD
     "titulo": "UMP-45 Scaffold",
+=======
+    "titulo": "Scaffold",
+    "modelo": "UMP-45",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "./images/ump scaffold.png",
     "precio": 1688,
     "detalle": "FN 0.03 - 0.04",
@@ -67,7 +99,12 @@
   },
   {
     "id": 7,
+<<<<<<< HEAD
     "titulo": "AK-47 Fire Serpent",
+=======
+    "titulo": "Fire Serpent",
+    "modelo": "AK-47",  
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/rifles/ak47-fire-serpent.png",
     "precio": 30688,
     "detalle": "FN 0.03 - 0.04",
@@ -78,7 +115,12 @@
   },
   {
     "id": 8,
+<<<<<<< HEAD
     "titulo": "AWP BOOM",
+=======
+    "titulo": "BOOM",
+    "modelo": "AWP",  
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/awp/awp-boom.png",
     "precio": 5900,
     "detalle": "FN 0.03 - 0.04",
@@ -89,7 +131,12 @@
   },
   {
     "id": 9,
+<<<<<<< HEAD
     "titulo": "Bayoneta M9 Emerald",
+=======
+    "titulo": "Emerald",
+    "modelo": "Bayoneta M9",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/cuchillos/Bayoneta M9-Emerald.png",
     "precio": 120688,
     "detalle": "FN 0.03 - 0.04",
@@ -100,7 +147,12 @@
   },
   {
     "id": 10,
+<<<<<<< HEAD
     "titulo": "AWP Prince",
+=======
+    "titulo": "Prince",
+    "modelo": "AWP",  
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/awp/awp prince.png",
     "precio": 110688,
     "detalle": "FN 0.03 - 0.04",
@@ -111,8 +163,14 @@
   },
   {
     "id": 11,
+<<<<<<< HEAD
     "titulo": "AK-47 Gold",
     "imagen": "images/ak47 gold.png",
+=======
+    "titulo": "Gold",
+    "modelo": "AK-47",
+    "imagen": "images/rifles/ak47 gold.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 100688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -122,8 +180,14 @@
   },
   {
     "id": 12,
+<<<<<<< HEAD
     "titulo": "Karambit Emerald",
     "imagen": "images/karambit emerald.png",
+=======
+    "titulo": "Emerald",
+    "modelo": "Karambit",
+    "imagen": "images/cuchillos/karambit Emerald.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 156688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -133,8 +197,14 @@
   },
   {
     "id": 13,
+<<<<<<< HEAD
     "titulo": "M4A4 Howl",
     "imagen": "images/m4a4 howl.png",
+=======
+    "titulo": "Howl",
+    "modelo": "M4A4", 
+    "imagen": "images/rifles/m4a4 howl.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 170688,
     "detalle": "FT 0.16 - 0.17",
     "rareza": "legendary",
@@ -144,8 +214,14 @@
   },
   {
     "id": 14,
+<<<<<<< HEAD
     "titulo": "AWP Gungir",
     "imagen": "./public/images/awp/awp gungir.png",
+=======
+    "titulo": "Gungir",
+    "modelo": "AWP",  
+    "imagen": "images/awp/awp gungir.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 170688,
     "detalle": "FT 0.06 - 0.10",
     "rareza": "legendary",
@@ -155,8 +231,14 @@
   },
   {
     "id": 15,
+<<<<<<< HEAD
     "titulo": "AWP Oni Taji",
     "imagen": "images/awp-onitaji.png",
+=======
+    "titulo": "Oni Taji",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-onitaji.png",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "precio": 70688,
     "detalle": "BS 0.46 - 0.47",
     "rareza": "Covert",
@@ -166,7 +248,12 @@
   },
   {
     "id": 16,
+<<<<<<< HEAD
     "titulo": "USP Printstream",
+=======
+    "titulo": "Printstream",
+    "modelo": "USP-S",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/usp-printstream.png",
     "precio": 10688,
     "detalle": "FT 0.16 - 0.17",
@@ -177,7 +264,12 @@
   },
   {
     "id": 17,
+<<<<<<< HEAD
     "titulo": "Gloves Vice",
+=======
+    "titulo": "Vice",
+    "modelo": "Gloves",
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
     "imagen": "images/Sport Gloves Vice.png",
     "precio": 688,
     "detalle": "FN 0.03 - 0.04",
@@ -185,6 +277,93 @@
     "slug": "gloves-vice",
     "tipo": "Gloves",
     "coleccion": "Clutch Case"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "id": 18,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 19,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 20,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 21,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 22,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 23,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+  },
+  {
+    "id": 24,
+    "titulo": "",
+    "modelo": "",
+    "imagen": "",
+    "precio": 5688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "",
+    "tipo": "",
+    "coleccion": ""
+>>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
   }
 ]
 
