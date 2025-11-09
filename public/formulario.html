@@ -1,58 +1,74 @@
 <html>
-    <head>
-        <link   rel=" stylesheet" href="./css/style.css">
-        <title>Formulario registro</title>
-        <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
-    </head>
-    <body>
-        <main>
-            <section>
-            <form class="formulario" action="servidor-ejemplo.com">
-                <fieldset>
-                <legend>Para registrarte completa todos los campos</legend>
-                <div class="contenedor-campos">
-                    <div class="campo">
-                        <label for="Nombre">Nombre:</label><br>
-                        <input class="input-text" type="text" placeholder="Nombre" required>
-                        <br>
-                    </div>
-                    <div class="campo">
-                        <label for="Apellido">Apellido:</label><br>
-                        <input class="input-text" type="text" placeholder="Apellido" required>
-                        <br>
-                    </div>
-                    <div class="campo">
-                        <label for="DNI">DNI:</label><br>
-                        <input class="input-text" type="number" placeholder="Ingrese DNI sin puntos" required><br>
-                    </div>
-                    <div class="campo">
-                        <label for="nacimiento">Fecha de nacimiento:</label><br>
-                        <input class="input-text" type="date" required />
-                        <br>
-                    </div>
+<head>
+    <link rel="stylesheet" href="./css/styleformulario.css">
+    <title>Formulario registro</title>
+</head>
 
-                    <div class="campo">
-                        <label for="Contrasena">Contraseña</label><br>
-                        <input class="input-text" type="password" placeholder="Ingrese su contrasena" required/><br>
-                        <label for="Seguridad">La contrasenia debe constar de minimo 8 caracteres</label><br>
-                        <br>
-                    </div>
-                    <div>
+<body>
+    <header class="header">
+        <div class="container-header">
+            <h1>FAI Skins CS2</h1>
+            <nav class="nav-header">
+                <ul class="nav-list">
+                    <li class="link"><a href="./index.html">Inicio</a></li>
+                    <li class="link"><a href="./market.html">Mercado</a></li>
+                    <li class="link"><a href="./formulario.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <form class="formulario">
+                <fieldset >
+                    <legend class="titulo">Para registrarte completa todos los campos</legend>
+                    <div class="contenedor">
+                        <div class="campo">
+                            <label for="Nombre">Nombre:</label><br>
+                            <input class="input-text" type="text" placeholder="Nombre" required>
+          
+                        </div>
+                        <div class="campo">
+                            <label for="Apellido">Apellido:</label><br>
+                            <input class="input-text" type="text" placeholder="Apellido" required>
+               
+                        </div>
+                        <div class="campo">
+                            <label for="DNI">DNI:</label><br>
+                            <input class="input-text" type="number" placeholder="Ingrese DNI sin puntos" required><br>
+                        </div>
+                        <div class="campo">
+                            <label for="nacimiento">Fecha de nacimiento:</label><br>
+                            <input class="input-text" type="date" required />
+   
+                        </div>
 
-                    </div>
-                    <div class="campo">
-                        <label for="check">Lei y estoy de acuerdo con los T&C</label><br>
-                        <input type="checkbox" id="check" required/>
-                    </div>
+                        <div class="campo">
+                            <label for="Contrasena">Contraseña</label><br>
+                            <input class="input-text" type="password" placeholder="Ingrese su contrasena"
+                                required /><br>
+                            <label for="Seguridad">La contrasenia debe constar de minimo 8 caracteres</label><br>
+               
+                        </div>
 
-                    <br><br>
-                    <input type="submit" value="Enviar">
-                </div>
+                        <input type="submit" value="Enviar">
+                    </div>
                 </fieldset>
             </form>
-            </section>
-        </main>
-    </body>
-
-
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Proyecto subido en GitHub</p>
+            <ul>
+                <li>
+                    <a href="https://github.com/erickBenicio/web-estatica" target="_blank" aria-label="GitHub">
+                        <img src="./images/git2.png" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+            <p class="p-footer">Laboratorio de programación 3° Año - Web estática</p>
+        </div>
+    </footer>
+</body>
 </html>
