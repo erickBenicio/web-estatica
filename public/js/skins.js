@@ -7,7 +7,7 @@
         let skinsData = [];  // para almacenar el JSON completo
         const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
-    fetch('./data/skins.json')
+    fetch('../data/skins.json')
         .then(res => res.json())
         .then(data => {
             skinsData = data;  // guardo todos los datos
@@ -43,9 +43,15 @@
                 <div class="tag ${skin.rareza}">
                 ${skin.rareza.charAt(0).toUpperCase() + skin.rareza.slice(1)}
                 </div>
+                <div class= "botonComprar">Comprar</div>
                 `;
+                
+                 //Esta constante tendra al elemento boton que luego se le asignara un evento
+                const boton = card.querySelector(".botonComprar");
 
-                card.addEventListener("click", () => {
+               //A boton se le da la funcionalidad de poder agregar ese articulo al futuro carrito 
+               boton.addEventListener("click", () => {
+                    Carrito.agregarItem(skin);
                     const mensaje = document.createElement("div");
                     mensaje.textContent = `Agregada con exito`;
                     mensaje.classList.add("notificacion");

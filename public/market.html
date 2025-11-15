@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name ="viewport" content="width=device-widht, initial-scale=1.0">
+   
+  <meta charset="UTF-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Skin Market CS</title>
-  
-  <link rel="stylesheet" href="./css/stylemarket.css">
-  <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
+    <title>Skin Market CS</title>
+   
+   
+  <link rel="stylesheet" href="./css/stylemarket.css">
+   
+  <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
 </head>
-<body class="body-market">
-    
-  <header class="header">    
-      <div class="container-header">
-          <a href="index.html" class="logo-link">
-            <img src="./images/pegatina ibuypwer.png" alt="Icono página principal" class="logo">
-         </a>
-          <h1 class="tituloPrincipal"> SKINS MARKET </h1>
 
-          <nav class="nav-market">
-                        <a href="./formulario.html" class="nav-btn nav-btn--primary">Iniciar Sesión</a>
-          </nav>
-      </div>
-  </header>
+<body class="body-market">    
+    <header class="header">
+              <a href="index.html" class="logo-link"><img src="./images/LOGO CONTER01.png" alt="Icono pagina principal"
+        class="logo"></a>
+              <h1 class="tituloPrincipal"> SKINS MARKET </h1>
+          <div class="botonInicioSesion"><a href="./formulario.html" class="botonSesion">Iniciar Sesión</a></div>    
+      </header>
 
-  <main class="main-market">
-    <section class="market-controls">
-      <form class="filter-form">
-        <label for="filtro-rareza" class="filter-label">Filtrar por rareza:</label>
-        <select id="filtro-rareza" class="filter-select"> 
-          <option value="todas">Todas</option>
-          <option value="legendary">Legendary</option>
-          <option value="Covert">Covert</option>
-          <option value="Restricted">Restricted</option>
-          <option value="mil-spec">Mil-spec</option>
-        </select>
-      </form>
-    </section>
+    <main class="main-market">
+        <section class="market-controls">
+            <form class="filter-form">
+                <label for="filtro-rareza" class="filter-label">Filtrar por rareza:</label>
+                <select id="filtro-rareza" class="filter-select">
+                    <option value="todas">Todas</option>
+                    <option value="legendary">Legendary</option>
+                    <option value="Covert">Covert</option>
+                    <option value="Restricted">Restricted</option>
+                    <option value="mil-spec">Mil-spec</option>
+                  </select>
+              </form>
+          </section>
 
-        <div class="grid skin-grid" id="contenedor-skins">
-          </div>
-  </main>
+    <div class="contenedor " id="contenedor-skins"></div>
 
-    <a href="carrito.html" class="cart-btn" aria-label="Ver Carrito">
-    [Imagen de icono de carrito]
-  </a>
-  
-  <div id="contenedor-notificaciones"></div>
-  
-  <script src="skins.js"></script>
-  <div data-include="./includes/footer.html"></div>
-  <script src="include.js"></script>
+
+
+
+     
+  </main>
+
+  <!-- Carrito de compras -->
+    <a href="carrito.html" class="cart-btn" aria-label="Ver Carrito"><img src="./images/carro.png" class="carro"></a>
+
+  <!-- Contenedor de notificaciones para avisar cuando agregas una skins a tu carro-->
+    <div id="contenedor-notificaciones"></div>
+
+
+
+  <!--Seccion de los archivos .js usados -->
+  <div data-include="../includes/footer.html"></div>
+  <script src="./js/include.js"></script>
+
+  <script src="./js/carrito.js"></script>
+  <script src="./js/skins.js"></script>
+   
+
+
 </body>
+
 </html>

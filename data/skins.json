@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "AWP Dragon Lore",
     "imagen": "./images/awp-dlore.png",
-    "precio": 171380,
+    "precio": 1723800,
     "detalle": "FT 0.27 - 0.38",
     "rareza": "legendary",
     "slug": "awp-dragon-lore",
@@ -14,7 +14,7 @@
     "id": 2,
     "titulo": "Butterfly Knife Ruby",
     "imagen": "./images/mariposa ruby.png",
-    "precio": 35688,
+    "precio": 350688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
     "slug": "butterfly-ruby",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "titulo": "AK-47 Fire Serpent",
-    "imagen": "images/ak47-fire-serpent.png",
+    "imagen": "./images/ak47-fire-serpent.png",
     "precio": 30688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "titulo": "AWP BOOM",
-    "imagen": "images/awp-boom.png",
+    "imagen": "./images/awp-boom.png",
     "precio": 5900,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Restricted",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "titulo": "Bayoneta M9 Emerald",
-    "imagen": "images/Bayoneta M9-Emerald.png",
+    "imagen": "./images/Bayoneta M9-Emerald.png",
     "precio": 120688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "titulo": "AWP Prince",
-    "imagen": "images/awp prince.png",
+    "imagen": "./images/awp prince.png",
     "precio": 110688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "Covert",
@@ -112,7 +112,7 @@
   {
     "id": 11,
     "titulo": "AK-47 Gold",
-    "imagen": "images/ak47 gold.png",
+    "imagen": "./images/ak47 gold.png",
     "precio": 100688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -123,7 +123,7 @@
   {
     "id": 12,
     "titulo": "Karambit Emerald",
-    "imagen": "images/karambit emerald.png",
+    "imagen": "./images/karambit emerald.png",
     "precio": 156688,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
@@ -134,7 +134,7 @@
   {
     "id": 13,
     "titulo": "M4A4 Howl",
-    "imagen": "images/m4a4 howl.png",
+    "imagen": "./images/m4a4 howl.png",
     "precio": 170688,
     "detalle": "FT 0.16 - 0.17",
     "rareza": "legendary",
@@ -145,7 +145,7 @@
   {
     "id": 14,
     "titulo": "AWP Gungir",
-    "imagen": "images/awp gungir.png",
+    "imagen": "./images/awp gungir.png",
     "precio": 170688,
     "detalle": "FT 0.06 - 0.10",
     "rareza": "legendary",
@@ -156,7 +156,7 @@
   {
     "id": 15,
     "titulo": "AWP Oni Taji",
-    "imagen": "images/awp-onitaji.png",
+    "imagen": "./images/awp-onitaji.png",
     "precio": 70688,
     "detalle": "BS 0.46 - 0.47",
     "rareza": "Covert",
@@ -167,7 +167,7 @@
   {
     "id": 16,
     "titulo": "USP Printstream",
-    "imagen": "images/usp-printstream.png",
+    "imagen": "./images/usp-printstream.png",
     "precio": 10688,
     "detalle": "FT 0.16 - 0.17",
     "rareza": "Covert",
@@ -178,12 +178,45 @@
   {
     "id": 17,
     "titulo": "Gloves Vice",
-    "imagen": "images/Sport Gloves Vice.png",
-    "precio": 688,
+    "imagen": "./images/Sport Gloves Vice.png",
+    "precio": 688000,
     "detalle": "FN 0.03 - 0.04",
     "rareza": "legendary",
     "slug": "gloves-vice",
     "tipo": "Gloves",
     "coleccion": "Clutch Case"
+  },
+  {
+    "id": 18,
+    "titulo": "AK-47 Wild Lotus",
+    "imagen": "./images/ak47 wild lotus.png",
+    "precio": 140688,
+    "detalle": "FN 0.03 - 0.04",
+    "rareza": "Covert",
+    "slug": "ak47-wildlotus",
+    "tipo": "rifle",
+    "coleccion": "DreamHack Collection"
+  },
+  {
+    "id": 19,
+    "titulo": "Bayonera M9-Saphiro",
+    "imagen": "./images/Bayoneta M9- Saphiro.png",
+    "precio": 100688,
+    "detalle": "FN 0.03 - 0.04",
+    "rareza": "legendary",
+    "slug": "ak47-gold",
+    "tipo": "rifle",
+    "coleccion": "DreamHack Collection"
+  },
+  {
+    "id": 11,
+    "titulo": "Pegatina IbuyPower",
+    "imagen": "./images/pegatina ibuypwer.png",
+    "precio": 150688,
+    "detalle": "FN 0.03 - 0.04",
+    "rareza": "legendary",
+    "slug": "ak47-gold",
+    "tipo": "rifle",
+    "coleccion": "DreamHack Collection"
   }
 ]
