@@ -3,63 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>Carrito</title>
- 
+
   <link rel="stylesheet" href="./css/stylecarrito.css">
 
-  <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
+  <link rel="icon" type="image/x-icon" href="./images/logoPestania.png">
 </head>
 
 <body>
 
-   <header class="header">
-              <a href="index.html" class="logo-link"><img src="./images/LOGO CONTER01.png" alt="Icono pagina principal"
-        class="logo"></a>
-              <h1 class="tituloPrincipal"> CARRITO </h1>
-          <div class="botonInicioSesion"><a href="./formulario.html" class="botonSesion">Iniciar Sesión</a></div>    
-      </header>
+  <header class="header"> <a href="market.html" class="logo-link"><img src="./images/LOGO CONTER01.png"
+        alt="Icono pagina principal" class="logo"></a>
+              <div class="botones">
+      <div class="botonInventariolMain"><a href="./inventario.html" class="botonInventario">Inventario</a></div>
+      <div class="botonMarketlMain"><a href="./market.html" class="botonMarket">Market</a></div>
+            <div class="botonInicioSesion"><a href="./formulario.html" class="botonSesion">Iniciar Sesión</a></div>
+    </div>
+  </header>
 
   <div class="cuerpoSkinsSeleccionadas">
-    
-
-    <div class="carrito-lleno oculto">
-      <div class="columnaItems">
-      </div>
-     
-
+    <div class="carrito-vacio oculto">
+      <h1 class="textVacio">El carrito esta vacio</h1>
     </div>
 
-     <div class="cuerpoCalculosPrecio">
-        <div class="detallesCompra"> DETALLE DE COMPRA</div>
-        <div class="impuesto"> Impuesto</div>
-        <div class="totalMontoCompra"> Total</div>
-        <button class="botonComprar"> COMPRAR</button>
+    <div class="carrito-lleno oculto">
+      <div class="columnaItems"></div>
+    </div>
 
-      </div>
-
-
-
-
-  </div>
-  <div class="carrito-vacio">
-    EL CARRO ESTA VACIO
+    <div class="cuerpoCalculosPrecio oculto">
+      <div class="detallesCompra"> DETALLE DE COMPRA</div>
+      <div class="impuesto"> Impuesto</div>
+      <div class="totalMontoCompra"> Total</div>
+      <button class="botonComprar"> COMPRAR</button>
+    </div>
   </div>
 
-
-
-  </div>
-
-
-
-<script src="./js/carrito.js"></script>
-<script src="./js/carritoLogica.js"></script>
+  <!--JS USADOS-->
+  <script src="./js/carrito.js"></script>
+  <script src="./js/carritoLogica.js"></script>
 
 </body>
-
-
-
 
 </html>

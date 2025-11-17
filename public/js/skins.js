@@ -1,39 +1,41 @@
-// Archivo: skins.js
-       //Codigo filtro para el market
 
     document.addEventListener("DOMContentLoaded", () => {
+        //guardo en variables cada elemento que voy a usar del HTML
         const contenedor = document.getElementById("contenedor-skins");
         const filtroRareza = document.getElementById("filtro-rareza");
         let skinsData = [];  // para almacenar el JSON completo
         const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
-    fetch('../data/skins.json')
-        .then(res => res.json())
+    fetch('../data/skins.json')// fetch inicia una peticion para buscar el archivo skins.json
+
+        .then(res => res.json())//Cuando la peticion termine, convierte el el texto recibido a un .json
         .then(data => {
-            skinsData = data;  // guardo todos los datos
-            mostrarSkins(skinsData);  // muestro todas al inicio
+            skinsData = data;  
+            mostrarSkins(skinsData);  
         })
         .catch(err => {
             console.error("Error al cargar skins:", err);
             contenedor.innerHTML = "<p>No se pueden mostrar skins.</p>";
         });
 
+        //Agrego la funcionalidad al filtrado por rareza
         filtroRareza.addEventListener("change", () => {
-            const seleccion = filtroRareza.value;
+            const seleccion = filtroRareza.value;//Recupero la rareza deseada
             let filtradas;
             if (seleccion === "todas") {
-                filtradas = skinsData;
+                filtradas = skinsData; //Si la rareza son todas, muestro normal
             } else {
-                filtradas = skinsData.filter(skin => skin.rareza === seleccion);
+                filtradas = skinsData.filter(skin => skin.rareza === seleccion); //Sino agrupo a las que cumplen la cond.
             }
-            mostrarSkins(filtradas);
+            mostrarSkins(filtradas);//muestro a todas las que cumplieron la cond. 
         });
 
+        //mostrarSkins muestra las tarjetas en el html, lista sera el .json con las skins solicitadas a mostrar
         function mostrarSkins(lista) {
-            contenedor.innerHTML = "";  // limpio el contenedor
-            lista.forEach(skin => {  // ← CAMBIO CLAVE
-                const card = document.createElement("div");
-                card.classList.add("card");
+            contenedor.innerHTML = "";  
+            lista.forEach(skin => {  //bucle para recorrer cada skins de la lista
+                const card = document.createElement("div"); //creo un nuevo div en memoria
+                card.classList.add("card"); //le agrego el estilo CSS card
 
                 card.innerHTML = `
                 <img src="${skin.imagen}" alt="${skin.titulo}">
@@ -46,7 +48,7 @@
                 <div class= "botonComprar">Comprar</div>
                 `;
                 
-                 //Esta constante tendra al elemento boton que luego se le asignara un evento
+                 //boton contiene al elemento botonComprar de cada tarjeta
                 const boton = card.querySelector(".botonComprar");
 
                //A boton se le da la funcionalidad de poder agregar ese articulo al futuro carrito 
