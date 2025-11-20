@@ -1,0 +1,320 @@
+/*------------------- 1. COLORES Y FONDO DE LA PAGINA--------------- */
+:root {
+    /* Fondos */
+    --color-bg-dark: #0D0D0F;
+    --color-bg-section: #1A1A1D;
+    --color-bg-card-highlight: #FFB000;
+
+    --color-primary: #FFB000;
+    --color-secondary: #14C7E8;
+
+    /* Texto */
+    --color-text-light: #F5F5F5;
+    --color-text-dark: #1A1A1D;
+    --color-text-muted: #999999;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg-dark);
+    /* Fondo oscuro */
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-light);
+    min-height: 100vh;
+}
+
+
+/*----------------- 2. BARRA SUPERIOR ------------------------------*/
+
+.header {
+    /*ARREGLAR UBICACION BUGEADA CUANDO SE ACHICA MUCHO 
+      ALINEAR BIEN LOS ICONOS*/
+    background-color: var(--color-bg-section);
+    border-bottom: 2px solid var(--color-primary);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    /* Altura consistente */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.header .logo {
+    width: 90px;
+    cursor: pointer;
+    transition: transform 0.2s;
+
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header .botonMarket {
+    color: var(--color-text-light);
+    font-weight: 500px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botonMarket:hover {
+    color: var(--color-secondary);
+    background-color: rgb(20 199 232 / 0.1);
+}
+
+
+.header .botonSesion {
+    color: var(--color-text-light);
+    font-weight: 500px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botonSesion:hover {
+    color: var(--color-secondary);
+    background-color: rgb(20 199 232 / 0.1);
+}
+
+
+/*---------- 3. CUERPO CONTENEDOR DE LA INFORMACION TOTAL------------------------ */
+
+.cuerpoSkinsSeleccionadas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+
+    height: 1000px;
+    width: 95%;
+    background-color: #24272e;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------ 4. CUERPO CONTENEDOR DE LOS ITEMS A COMPRAR Y CUERPO DE PRECIOS------------------------- */
+
+.carrito-lleno {
+    background-color: #353942;
+    height: 950px;
+    width: 430px;
+    border-radius: 5px;
+}
+
+.columnaItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+/* Selecciona la barra de scroll de la columna de items */
+.columnaItems::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra */
+}
+
+/* Estilo para el "canal" (la parte de fondo por donde se mueve la barra) */
+.columnaItems::-webkit-scrollbar-track {
+    background: var(--color-bg-section);
+    /* Un color de fondo oscuro */
+    border-radius: 10px;
+}
+
+/* Estilo para el "pulgar" (la parte que arrastras) */
+.columnaItems::-webkit-scrollbar-thumb {
+    background-color: #353942;
+    /* El color amarillo principal */
+    border-radius: 10px;
+    border: 2px solid var(--color-bg-section);
+    /* Un borde que coincide con el fondo del canal */
+}
+
+/* (Opcional) Estilo para el "pulgar" cuando pasas el mouse por encima */
+.columnaItems::-webkit-scrollbar-thumb:hover {
+    background-color: #3c4049;
+    /* Se pone blanco al pasar el mouse */
+}
+
+.cuerpoCalculosPrecio {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    padding: 10px 10px;
+
+    background-color: #353942;
+    border-radius: 7px;
+
+    font-style: 'Montserrat', sans-serif;
+    ;
+}
+
+
+.cuerpoCalculosPrecio .detallesCompra {
+    color: silver;
+    padding: 10px;
+
+}
+
+.cuerpoCalculosPrecio .impuesto {
+    color: red;
+    padding: 0px 5px;
+}
+
+.cuerpoCalculosPrecio .totalMontoCompra {
+    color: silver;
+    padding: 100px 5px
+}
+
+.cuerpoCalculosPrecio .botonComprar {
+    height: 30px;
+    width: 200px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+}
+
+
+/*---------------------------- 5. CARDS ------------------------------------------------ */
+.cardCarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* ¡LA CLAVE! Pone los items en fila */
+    align-items: center;
+    /* Centra verticalmente la imagen y el texto */
+    background-color: #1f2125;
+    /* Tu color de fondo */
+    border-radius: 8px;
+    padding: 12px 15px;
+    width: 400px;
+    height: 100xpx;
+    /* Espacio interno para que no se pegue */
+
+    font-style: 'Montserrat', sans-serif;
+
+    /* Un borde sutil que combina con tu fondo */
+    border: 1px solid #525a6c;
+
+    /* Sombra suave para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    /* Transición suave para el efecto hover */
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+}
+
+/* --- Efecto "Hover" --- */
+.cardCarrito:hover {
+    transform: translateY(-3px);
+    /* Salta un poco hacia arriba */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.imgYNombre {
+    display: flex;
+    align-items: center;
+
+}
+
+/* --- Estilos para la imagen del arma --- */
+.imgYNombre .imagenArma {
+    height: 50px;
+    /* Una altura fija */
+    width: 90px;
+    /* Un ancho fijo para uniformidad */
+
+    /* Esto es clave para que las skins (que tienen formas raras) 
+       se vean completas y no estiradas */
+    object-fit: contain;
+
+    margin-right: 15px;
+    /* Espacio entre la imagen y el nombre */
+    flex-shrink: 0;
+    /* Evita que la imagen se encoja */
+
+    /* (Opcional) Fondo para ver si la imagen falla */
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+/* --- Estilos para el nombre del arma --- */
+.cardCarrito .nombre {
+    font-size: 1.1rem;
+    /* Tamaño de letra (18px aprox) */
+    font-weight: 600;
+    /* Semi-negrita */
+    color: #e5e5e5;
+    /* Un color blanco/plata claro */
+
+    /* Evita que el texto se parta en dos líneas */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardCarrito .precio {
+    color: yellow;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-overflow: ellipsis;
+
+}
+
+.cardCarrito .botonSacar {
+    color: red;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+
+}
+
+.botonSacar:hover {
+    transform: scale(1.1);
+}
+
+/*---------------------------- 6. TEXTOS Y OTROS ------------------------------------------------ */
+
+.textVacio {
+    color: #FFB000;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oculto {
+    display: none !important;
+}

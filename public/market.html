@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name ="viewport" content="width=device-widht, initial-scale=1.0">
 
-    <title>Mercado | FAI Skins CS2</title> 
- 
-    <link rel="stylesheet" href="./css/stylemarket.css">
-  <link rel="icon" type="image/x-icon" href="./images/ak47 gold.png">
+<head>
+   
+  <meta charset="UTF-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Market CS</title> 
+  <link rel="stylesheet" href="./css/stylemarket.css">
+   
+  <link rel="icon" type="image/x-icon" href="./images/logoPestania.png">
 </head>
 
-<body> 
-        <header class="header">
-        <div class="container-header">
-                        <h1>FAI Skins CS2</h1> 
-            <nav class="nav-header">
-                <ul class="nav-list">
-                                        <li class="link"><a href="./market.html">Mercado</a></li> 
-                    <li class="link"><a href="./formulario.html">Registrarse</a></li>
-                    <li class="link"><a href="">Iniciar sesión</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body>    
+  <header class="header"><a href="market.html" class="logo-link"><img src="./images/LOGO CONTER01.png"
+        alt="Icono pagina principal" class="logo"></a>
+              <div class="botones">
+      <div class="botonPrincipalMain"><a href="./index.html" class="botonPrincipal">PaginaPrincipal</a></div>
+      <div class="botonInventariolMain"><a href="./inventario.html" class="botonInventario">Inventario</a></div>
+            <div class="botonInicioSesion"><a href="./formulario.html" class="botonSesion">Iniciar Sesión</a></div>
+    </div>
+  </header>
 
-    <main>
-                <header class="header-main">
-            <h2>SKINS MARKET</h2>
-            <p>Encuentra tus skins favoritas y más raras!</p>
-        </header>
+    <main class="main-market">
+        <section class="market-controls">
+            <form class="filter-form">
+                <label for="filtro-rareza" class="filter-label">Filtrar por rareza:</label>
+                <select id="filtro-rareza" class="filter-select">
+                    <option value="todas">Todas</option>
+                    <option value="legendary">Legendary</option>
+                    <option value="Covert">Covert</option>
+                    <option value="Restricted">Restricted</option>
+                    <option value="mil-spec">Mil-spec</option>
+                  </select>
+              </form>
+          </section>
 
-                <section class="seccion-controles">
-            <form class="filter-form">
-                <label for="filtro-rareza" class="filter-label">Filtrar por rareza:</label>
-                <select id="filtro-rareza" class="filter-select"> 
-                    <option value="todas">Todas</option>
-                    <option value="legendary">Legendary</option>
-                    <option value="Covert">Covert</option>
-                    <option value="Restricted">Restricted</option>
-                    <option value="mil-spec">Mil-spec</option>
-                </select>
-            </form>
-        </section>
+    <div class="contenedor " id="contenedor-skins"></div>
+   
+  </main>
 
-                <section class="seccion-productos seccion-mercado">
-                        <h2 class="sr-only">Listado de Skins</h2> 
-                        <div class="grid skin-grid" id="contenedor-skins"></div>
-        </section>
-    </main>
+  <!-- Carrito de compras -->
+    <a href="carrito.html" class="cart-btn" aria-label="Ver Carrito"><img src="./images/carro.png" class="carro"></a>
 
-        <a href="carrito.html" class="cart-btn" aria-label="Ver Carrito">
-        [Imagen de icono de carrito]
-    </a>
-  
-        <div id="contenedor-notificaciones"></div>
-  
-        <script src="./js/skins.js"></script>
-    <div data-include="./includes/footer.html"></div>
-    <script src="./js/include.js"></script>
+  <!-- Contenedor de notificaciones para avisar cuando agregas una skins a tu carro-->
+    <div id="contenedor-notificaciones"></div>
+
+
+
+  <!--Seccion de los archivos .js usados -->
+  <div data-include="../includes/footer.html"></div>
+  <script src="./js/include.js"></script>
+
+  <script src="./js/carrito.js"></script>
+  <script src="./js/skins.js"></script>
+   
+
+
 </body>
+
 </html>

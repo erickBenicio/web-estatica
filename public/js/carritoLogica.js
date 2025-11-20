@@ -10,6 +10,7 @@ function renderizarPaginaCarrito() {
     const contCarritoLleno = document.querySelector('.carrito-lleno');
     const contCarritoVacio = document.querySelector('.carrito-vacio');
     const contColumnaItems = document.querySelector('.columnaItems'); 
+    const contCalculoPrecios = document.querySelector('.cuerpoCalculosPrecio')
     const contCalculos = document.querySelector('.cuerpoCalculosPrecio');
 
     // 2. Obtener los items del carritoLogica.js
@@ -18,11 +19,13 @@ function renderizarPaginaCarrito() {
     // logica para saber si hay items o no
     if (carritoItems.length === 0) {
         // --- CARRITO VACÍO ---
-        contCarritoLleno.classList.add('oculto');
+        contCarritoLleno.classList.add('oculto'); 
+        contCalculoPrecios.classList.add('oculto'); //Si el carro esta vacio remuevo el calculo de precios
         contCarritoVacio.classList.remove('oculto');
     } else {
         // --- CARRITO CON ITEMS ---
-        contCarritoLleno.classList.remove('oculto');
+        contCarritoLleno.classList.remove('oculto'); 
+        contCalculoPrecios.classList.remove('oculto');//Si el carro tiene al menos un item agrego el calculo de precios
         contCarritoVacio.classList.add('oculto');
 
         // seleccionar los items
@@ -76,11 +79,8 @@ function renderizarPaginaCarrito() {
     }
 } 
 
-// -----------------------------------------------------------------
-// CAMBIO 1 (Continuación):
-// Ahora que la función está definida, SÓLO usamos
-// el DOMContentLoaded para llamarla una vez.
-// -----------------------------------------------------------------
+
+//Se llama a la renderizacion luego de cargar todo el HTML
 document.addEventListener("DOMContentLoaded", () => {
     renderizarPaginaCarrito();
 });
