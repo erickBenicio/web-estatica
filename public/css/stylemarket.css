@@ -33,7 +33,8 @@ body {
     background-color: var(--color-bg-section);
     border-bottom: 2px solid var(--color-primary);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    height: 55px; /* Altura consistente */
+    position: sticky;
+    top: 0;
 }
 
 .container-header {
@@ -44,6 +45,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    top: 0;
 }
 
 .logo-link {

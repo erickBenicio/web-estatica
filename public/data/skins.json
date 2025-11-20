@@ -1,369 +1,757 @@
 [
   {
     "id": 1,
-<<<<<<< HEAD
-    "titulo": "AWP Dragon Lore",
-=======
-    "titulo": "Dragon Lore",
+    "titulo": "AWP | Asiimov",
     "modelo": "AWP",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "/images/awp/awp-dlore.png",
+    "imagen": "images/awp/awp-asiimov.png",
     "precio": 171380,
-    "detalle": "FT 0.27 - 0.38",
-    "rareza": "legendary",
-    "slug": "awp-dragon-lore",
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-asiimov",
     "tipo": "awp",
-    "coleccion": "Cobblestone Collection"
+    "coleccion": ""
   },
   {
     "id": 2,
-<<<<<<< HEAD
-    "titulo": "Butterfly Knife Ruby",
-=======
-    "titulo": "Butterfly Ruby",
-    "modelo": "Knife",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "/images/cuchillos/mariposa ruby.png",
+    "titulo": "AWP | Atheris",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-atheris.png",
     "precio": 35688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "legendary",
-    "slug": "butterfly-ruby",
-    "tipo": "knife",
-    "coleccion": "Gamma Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-atheris",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 3,
-<<<<<<< HEAD
-    "titulo": "AWP Phobos",
-=======
-    "titulo": "Phobos",
+    "titulo": "AWP | Dragon Lore",
     "modelo": "AWP",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "/images/awp/awp phoboos.png",
+    "imagen": "images/awp/awp-dragon-lore.png",
     "precio": 5688,
     "detalle": "FN 0.03 - 0.04",
-    "rareza": "Restricted",
+    "rareza": "",
     "slug": "awp-phobos",
     "tipo": "awp",
-    "coleccion": "Gamma Case"
+    "coleccion": ""
   },
   {
     "id": 4,
-<<<<<<< HEAD
-    "titulo": "M4A4 Asiimov",
-    "imagen": "/images/rifles/m4a4 asiimov.png",
-=======
-    "titulo": "Asiimov",
-    "modelo": "M4A4",
-    "imagen": "/images/rifles/m4a4 asimov.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
+    "titulo": "AWP | Duality",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-duality.png",
     "precio": 45688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "Covert",
-    "slug": "m4a4-asiimov",
-    "tipo": "rifle",
-    "coleccion": "Winter Offensive Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-duality",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 5,
-<<<<<<< HEAD
-    "titulo": "AK-47 Neon Rider",
-    "imagen": "/images/rifles/ak47 neon rider.png",
-=======
-    "titulo": "Neon Rider",
-    "modelo": "AK-47",
-    "imagen": "/images/rifles/ak neon rider.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
+    "titulo": "AWP | Gungir",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-gungir.png",
     "precio": 25688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "Covert",
-    "slug": "ak47-neon-rider",
-    "tipo": "rifle",
-    "coleccion": "Horizon Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-gungir",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 6,
-<<<<<<< HEAD
-    "titulo": "UMP-45 Scaffold",
-=======
-    "titulo": "Scaffold",
-    "modelo": "UMP-45",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "./images/ump scaffold.png",
+    "titulo": "AWP | Medusa",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-medusa.png",
     "precio": 1688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "mil-spec",
-    "slug": "ump45-scaffold",
-    "tipo": "smg",
-    "coleccion": "Spectrum Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-medusa",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 7,
-<<<<<<< HEAD
-    "titulo": "AK-47 Fire Serpent",
-=======
-    "titulo": "Fire Serpent",
-    "modelo": "AK-47",  
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/rifles/ak47-fire-serpent.png",
+    "titulo": "AWP | Neo-Noir",
+    "modelo": "AWP",  
+    "imagen": "images/awp/awp-neo-noir.png",
     "precio": 30688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "Covert",
-    "slug": "ak47-fire-serpent",
-    "tipo": "rifle",
-    "coleccion": "Operation Bravo Collection"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-neo-noir",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 8,
-<<<<<<< HEAD
-    "titulo": "AWP BOOM",
-=======
-    "titulo": "BOOM",
+    "titulo": "AWP | Phobos",
     "modelo": "AWP",  
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/awp/awp-boom.png",
+    "imagen": "images/awp/awp-phobos.png",
     "precio": 5900,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "Restricted",
-    "slug": "awp-boom",
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-phobos",
     "tipo": "awp",
-    "coleccion": "eSports 2013 Case"
+    "coleccion": ""
   },
   {
     "id": 9,
-<<<<<<< HEAD
-    "titulo": "Bayoneta M9 Emerald",
-=======
-    "titulo": "Emerald",
-    "modelo": "Bayoneta M9",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/cuchillos/Bayoneta M9-Emerald.png",
+    "titulo": "AWP | Redline",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-redline.png",
     "precio": 120688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "legendary",
-    "slug": "m9-emerald",
-    "tipo": "knife",
-    "coleccion": "Gamma Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-redline",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 10,
-<<<<<<< HEAD
-    "titulo": "AWP Prince",
-=======
-    "titulo": "Prince",
+    "titulo": "AWP | Sun in Leo",
     "modelo": "AWP",  
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/awp/awp prince.png",
+    "imagen": "images/awp/awp-sun-in-leo.png",
     "precio": 110688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "Covert",
-    "slug": "awp-prince",
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-sun-in-leo",
     "tipo": "awp",
-    "coleccion": "Canals Collection"
+    "coleccion": ""
   },
   {
     "id": 11,
-<<<<<<< HEAD
-    "titulo": "AK-47 Gold",
-    "imagen": "images/ak47 gold.png",
-=======
-    "titulo": "Gold",
-    "modelo": "AK-47",
-    "imagen": "images/rifles/ak47 gold.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
+    "titulo": "AWP | Wildfire",
+    "modelo": "AWP",
+    "imagen": "images/awp/awp-wildfire.png",
     "precio": 100688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "legendary",
-    "slug": "ak47-gold",
-    "tipo": "rifle",
-    "coleccion": "DreamHack Collection"
+    "detalle": "",
+    "rareza": "",
+    "slug": "awp-wildfire",
+    "tipo": "awp",
+    "coleccion": ""
   },
   {
     "id": 12,
-<<<<<<< HEAD
-    "titulo": "Karambit Emerald",
-    "imagen": "images/karambit emerald.png",
-=======
-    "titulo": "Emerald",
-    "modelo": "Karambit",
-    "imagen": "images/cuchillos/karambit Emerald.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
+    "titulo": "Broken Fang Gloves | Jade",
+    "modelo": "broken-fang",
+    "imagen": "images/gloves/broken-fang-jade.png",
     "precio": 156688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "legendary",
-    "slug": "karambit-emerald",
-    "tipo": "knife",
-    "coleccion": "Gamma Case"
+    "detalle": "",
+    "rareza": "",
+    "slug": "broken-fang-gloves-jade",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 13,
-<<<<<<< HEAD
-    "titulo": "M4A4 Howl",
-    "imagen": "images/m4a4 howl.png",
-=======
-    "titulo": "Howl",
-    "modelo": "M4A4", 
-    "imagen": "images/rifles/m4a4 howl.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "precio": 170688,
-    "detalle": "FT 0.16 - 0.17",
-    "rareza": "legendary",
-    "slug": "m4a4-howl",
-    "tipo": "rifle",
-    "coleccion": "Huntsman Collection"
+    "titulo": "Broken Fang Gloves | Unhinged",
+    "modelo": "broken-fang",
+    "imagen": "images/gloves/broken-fang-unhinged.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "broken-fang-gloves-unhinged",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 14,
-<<<<<<< HEAD
-    "titulo": "AWP Gungir",
-    "imagen": "./public/images/awp/awp gungir.png",
-=======
-    "titulo": "Gungir",
-    "modelo": "AWP",  
-    "imagen": "images/awp/awp gungir.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "precio": 170688,
-    "detalle": "FT 0.06 - 0.10",
-    "rareza": "legendary",
-    "slug": "awp-gungir",
-    "tipo": "awp",
-    "coleccion": "The Norse Collection"
+    "titulo": "Driver Gloves | Black Tie",
+    "modelo": "driver",
+    "imagen": "images/gloves/driver-black-tie.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "driver-gloves-black-tie",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 15,
-<<<<<<< HEAD
-    "titulo": "AWP Oni Taji",
-    "imagen": "images/awp-onitaji.png",
-=======
-    "titulo": "Oni Taji",
-    "modelo": "AWP",
-    "imagen": "images/awp/awp-onitaji.png",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "precio": 70688,
-    "detalle": "BS 0.46 - 0.47",
-    "rareza": "Covert",
-    "slug": "awp-onitaji",
-    "tipo": "awp",
-    "coleccion": "The Operation Hydra Collection"
+    "titulo": "Driver Gloves | Queen Jaguar",
+    "modelo": "driver",
+    "imagen": "images/gloves/driver-queen-jaguar.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "driver-gloves-queen-jaguar",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 16,
-<<<<<<< HEAD
-    "titulo": "USP Printstream",
-=======
-    "titulo": "Printstream",
-    "modelo": "USP-S",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/usp-printstream.png",
-    "precio": 10688,
-    "detalle": "FT 0.16 - 0.17",
-    "rareza": "Covert",
-    "slug": "usp-printstream",
-    "tipo": "pistol",
-    "coleccion": "The Recoil Collection"
+    "titulo": "Driver Gloves | Rezan the Red",
+    "modelo": "driver",
+    "imagen": "images/gloves/driver-rezan-the-red.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "driver-gloves-rezan-the-red",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 17,
-<<<<<<< HEAD
-    "titulo": "Gloves Vice",
-=======
-    "titulo": "Vice",
-    "modelo": "Gloves",
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
-    "imagen": "images/Sport Gloves Vice.png",
-    "precio": 688,
-    "detalle": "FN 0.03 - 0.04",
-    "rareza": "legendary",
-    "slug": "gloves-vice",
-    "tipo": "Gloves",
-    "coleccion": "Clutch Case"
-<<<<<<< HEAD
-=======
+    "titulo": "Hand Wraps Gloves | Caution",
+    "modelo": "hand-wraps",
+    "imagen": "images/gloves/hand-wraps-caution.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "hand-wraps-gloves-caution",
+    "tipo": "gloves",
+    "coleccion": ""
   },
   {
     "id": 18,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Hand Wraps Gloves | Constrictor",
+    "modelo": "hand-wraps",
+    "imagen": "images/gloves/hand-wraps-constrictor.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "hand-wraps-gloves-constrictor",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 19,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Hand Wraps Gloves | Desert Shamagh",
+    "modelo": "hand-wraps",
+    "imagen": "images/gloves/hand-wraps-desert-shamagh.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "hand-wraps-gloves-desert-shamagh",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 20,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Moto Gloves | 3rd Commando Company",
+    "modelo": "moto",
+    "imagen": "images/gloves/moto-3rd-commando-company.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "moto-gloves-3rd-commando-company",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 21,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Moto Gloves | Finish Line",
+    "modelo": "moto",
+    "imagen": "images/",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "moto-gloves-finish-line",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 22,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Moto Gloves | Polygon",
+    "modelo": "moto",
+    "imagen": "images/gloves/moto-polygon.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "moto-gloves-polygon",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 23,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Moto Gloves | Smoke Out",
+    "modelo": "moto",
+    "imagen": "images/gloves/moto-smoke-out.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "moto-gloves-smoke-out",
+    "tipo": "gloves",
     "coleccion": ""
   },
   {
     "id": 24,
-    "titulo": "",
-    "modelo": "",
-    "imagen": "",
-    "precio": 5688,
+    "titulo": "Moto Gloves | Transport",
+    "modelo": "moto",
+    "imagen": "images/gloves/moto-transport.png",
+    "precio": 156688,
     "detalle": "",
     "rareza": "",
-    "slug": "",
-    "tipo": "",
+    "slug": "moto-gloves-transport",
+    "tipo": "gloves",
     "coleccion": ""
->>>>>>> 0c61313c2c30b67e24b6ce72e6820ef1e4146084
+  },
+  {
+    "id": 25,
+    "titulo": "Moto Gloves | Turtle",
+    "modelo": "moto",
+    "imagen": "images/gloves/moto-turtle.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "moto-gloves-turtle",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 26,
+    "titulo": "Specialist Gloves | Buckshot",
+    "modelo": "specialist",
+    "imagen": "images/gloves/specialist-buckshot.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "specialist-gloves-buckshot",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 27,
+    "titulo": "Specialist Gloves | Fade",
+    "modelo": "specialist",
+    "imagen": "images/gloves/specialist-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "specialist-fade",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 28,
+    "titulo": "Sport Gloves | Amphibious",
+    "modelo": "sport",
+    "imagen": "images/gloves/sport-amphibious.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "sport-amphibious",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 29,
+    "titulo": "Sport Gloves | Bronze Morph",
+    "modelo": "sport",
+    "imagen": "images/gloves/sport-bronze-morph.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "sport-gloves-bronze-morph",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 30,
+    "titulo": "Sport Gloves | Omega",
+    "modelo": "sport",
+    "imagen": "images/gloves/sport-omega.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "sport-gloves-omega",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 31,
+    "titulo": "Sport Gloves | Vice",
+    "modelo": "sport",
+    "imagen": "images/gloves/sport-vice.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "sport-gloves-vice",
+    "tipo": "gloves",
+    "coleccion": ""
+  },
+  {
+    "id": 32,
+    "titulo": "Bayonet | Fade",
+    "modelo": "bayonet",
+    "imagen": "images/knives/bayonet-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "bayonet-fade",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 33,
+    "titulo": "Bayonet | Lore",
+    "modelo": "bayonet",
+    "imagen": "images/knives/bayonet-lore.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "bayonet-lore",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 34,
+    "titulo": "Butterfly Knife | Marble Fade",
+    "modelo": "butterfly",
+    "imagen": "images/knives/butterfly-marble-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "butterfly-knife-marble-fade",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 35,
+    "titulo": "Flip Knife | Fade",
+    "modelo": "flip",
+    "imagen": "images/knives/flip-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "flip-knife-fade",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 36,
+    "titulo": "Karambit | Blue Steel",
+    "modelo": "karambit",
+    "imagen": "images/knives/karambit-blue-steel.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "karambit-blue-steel",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 37,
+    "titulo": "Karambit | Fade",
+    "modelo": "karambit",
+    "imagen": "images/knives/karambit-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "karambit-fade",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 38,
+    "titulo": "Karambit | Tiger Tooth",
+    "modelo": "karambit",
+    "imagen": "images/knives/karambit-tiger-tooth.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "karambit-tiger-tooth",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 39,
+    "titulo": "M9 Bayonet | Fade",
+    "modelo": "m9-bayonet",
+    "imagen": "images/knives/m9-bayonet-fade.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m9-bayonet-fade",
+    "tipo": "knife",
+    "coleccion": ""
+  },{
+    "id": 40,
+    "titulo": "M9 Bayonet | Lore",
+    "modelo": "m9-bayonet",
+    "imagen": "images/knives/m9-bayonet-lore.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m9-bayonet-lore",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 41,
+    "titulo": "Skeleton Knife | Doppler",
+    "modelo": "skeleton",
+    "imagen": "images/knives/skeleton-doppler.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "skeleton-knife-doppler",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 42,
+    "titulo": "Talon Knife | Doppler",
+    "modelo": "talon",
+    "imagen": "images/knives/talon-doppler.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "talon-knife-doppler",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 43,
+    "titulo": "Ursus Knife | Crimson Web",
+    "modelo": "ursus",
+    "imagen": "images/knives/ursus-crimson-web.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ursus-knife-crimson-web",
+    "tipo": "knife",
+    "coleccion": ""
+  },
+  {
+    "id": 44,
+    "titulo": "AK-47 | Case Hardened",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-case-hardened.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-case-hardened",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 45,
+    "titulo": "AK-47 | Fire Serpent",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-fire-serpent.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-fire-serpent",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 46,
+    "titulo": "AK-47 | Frente Brumoso",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-frente-brumoso.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-frente-brumoso",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 47,
+    "titulo": "AK-47 | Gold",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-gold.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-gold",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 48,
+    "titulo": "AK-47 | Head Shot",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-head-shot.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-head-shot",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 49,
+    "titulo": "AK-47 | Ice Coaled",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-ice-coaled.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-ice-coaled",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 50,
+    "titulo": "AK-47 | Laminated Blue",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-laminated-blue.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-laminated-blue",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 51,
+    "titulo": "AK-47 | Neon Rider",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-neon-rider.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-neon-rider",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 52,
+    "titulo": "AK-47 | Slate",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-slate.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-slate",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 53,
+    "titulo": "AK-47 | Wild Lotus",
+    "modelo": "ak-47",
+    "imagen": "images/rifles/ak47-wild-lotus.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "ak-47-wild-lotus",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 54,
+    "titulo": "M4A4 | Asiimov",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-asiimov.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-asiimov",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 55,
+    "titulo": "M4A4 | Eye Of Horus",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-eye-of-horus.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-eye-of-horus",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 56,
+    "titulo": "M4A4 | Global Offensive",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-global-offensive.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-global-offensive",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 57,
+    "titulo": "M4A4 | Howl",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-howl.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-howl",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 58,
+    "titulo": "M4A4 | Mainframe",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-mainframe.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-mainframe",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 59,
+    "titulo": "M4A4 | Radiation",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-radiation.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-radiation",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 60,
+    "titulo": "M4A4 | Steel Work",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-steel-work.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-steel-work",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 61,
+    "titulo": "M4A4 | Tornado",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-tornado.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-tornado",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 62,
+    "titulo": "M4A4 | Urban DDPAT",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-urban-ddpat.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-urban-ddpat",
+    "tipo": "rifle",
+    "coleccion": ""
+  },
+  {
+    "id": 63,
+    "titulo": "M4A4 | X-Ray",
+    "modelo": "m4a4",
+    "imagen": "images/rifles/m4a4-x-ray.png",
+    "precio": 156688,
+    "detalle": "",
+    "rareza": "",
+    "slug": "m4a4-x-ray",
+    "tipo": "rifle",
+    "coleccion": ""
   }
 ]
-

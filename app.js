@@ -1,3 +1,31 @@
+const express = require('express');
+
+const app = express();
+
+const fs = require('fs');
+
+app.use(express.static('public'));
+
+app.use(express.json());
+
+app.get('/api/v1/skins', (req, res) => {
+    fs.readFile('./data/skins.json', 'utf8', (err, data) => {
+        try {
+            const skins = JSON.parse(data); 
+            res.json(skins);
+        } catch (err) {
+            res.status(500).send('Error al leer el archivo de skins');
+        }
+    });
+});
+
+app.get('/api/v1/')
+
+app.listen(4000, () => {
+    console.log(`El servidor esta escuchando en el puerto 4000`);
+
+});
+
 /********************************************************************************
 1. Cree un servidor básico que retorne “Mi Primer Servidor Web!” en texto plano.
     a. El mismo debe correr en el puerto 4000
@@ -126,34 +154,6 @@ server.listen(puerto, () => {
     b. http://localhost:4000/servidores debe devolver “NodeJS es genial”
 
 *********************************************************************************/
-
-const express = require('express');
-
-const app = express();
-
-const fs = require('fs');
-
-app.use(express.static('public'));
-
-app.use(express.json());
-
-app.get('/api/v1/skins', (req, res) => {
-    fs.readFile('./data/skins.json', 'utf8', (err, data) => {
-        try {
-            const skins = JSON.parse(data); 
-            res.json(skins);
-        } catch (err) {
-            res.status(500).send('Error al leer el archivo de skins');
-        }
-    });
-});
-
-app.get('/api/v1/')
-
-app.listen(4000, () => {
-    console.log(`El servidor esta escuchando en el puerto 4000`);
-
-})
 
 /********************************************************************************
 6. Cree un servidor Express que:
