@@ -1,15 +1,21 @@
-const express = require('express');
+import express  from 'express';
+import fs from 'fs';
 
 const app = express();
+const path =  require('path');
+const publicPath = path.join(__dirname, 'public');
+const skinsFilePath = path.join(__dirname, 'data', 'skins.json');
 
-const fs = require('fs');
-
-app.use(express.static('public'));
-
+app.use(express.static(publicPath));
 app.use(express.json());
 
+
 app.get('/api/v1/skins', (req, res) => {
-    fs.readFile('./data/skins.json', 'utf8', (err, data) => {
+    fs.readFile(skinsFilePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).send('Error al leer el archivo de skins');
+        }
+
         try {
             const skins = JSON.parse(data); 
             res.json(skins);
@@ -19,12 +25,80 @@ app.get('/api/v1/skins', (req, res) => {
     });
 });
 
-app.get('/api/v1/')
+app.get('/api/v1/skins:id', (req, res) => {
+    const skinId = parseInt(req.params.id, 10);
+    fs.readFile('./data/skins.json', 'utf8', (err, data) => {
+        try {
+            const skins = JSON.parse(data);
+            const skin = skins.find(s => s.id === skinId);
+            if (skin) {
+                res.json(skin);
+            } else {
+                res.status(404).send('Skin no encontrada');
+            }
+        } catch (err) {
+            res.status(500).send('Error al leer el archivo de skins'); 
+        } 
+    }); 
+});
+
+
+app.get('/api/v1/skins:nombre', (req, res) => {
+    const skinNombre = req.params.nombre.toLowerCase();
+    fs.readFile('./data/skins.json', 'utf8', (err, data) => {
+        try {
+            const skins = JSON.parse(data); 
+            const skin = skins.find(s => s.nombre.toLowerCase() === skinNombre);
+            if (skin) {
+                res.json(skin);
+            } else {
+                res.status(404).send('Skin no encontrada');
+            }   
+        } catch (err) {
+            res.status(500).send('Error al leer el archivo de skins'); 
+        }   
+    });
+});
+
 
 app.listen(4000, () => {
     console.log(`El servidor esta escuchando en el puerto 4000`);
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********************************************************************************
 1. Cree un servidor básico que retorne “Mi Primer Servidor Web!” en texto plano.
@@ -167,7 +241,7 @@ const express = require('express');
 
 const app = express();
 
-const { skins } = require('./data/skins.json');
+const { skins } = require('./public/data/skins.json');
 
 app.get('/', (req, res) => {
     res.send('Primer servidor APP SKINS')

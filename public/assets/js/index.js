@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const sectionAwps = document.getElementById('seccion-awps');
 
     function cargarSkins(seccionElement, skinsArray) {
-        const skinsLimit = skinsArray.slice(0, 4); // Limitar a 4 skins
+        const skinsLimit = skinsArray.slice(0, 4);
 
         const grid = seccionElement.querySelector('.grid');
-        grid.innerHTML = ''; // Limpiar contenido previo
+        grid.innerHTML = ''; 
 
         skinsLimit.forEach(skin => {
             const card = document.createElement('article');
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    fetch('./data/skins.json')
+    fetch('/api/v1/skins')
         .then(res => res.json())
 
         .then(data => {

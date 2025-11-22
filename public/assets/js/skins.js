@@ -6,7 +6,7 @@
         let skinsData = [];  // para almacenar el JSON completo
         const contenedorNoti = document.getElementById("contenedor-notificaciones");
 
-    fetch('../data/skins.json')// fetch inicia una peticion para buscar el archivo skins.json
+    fetch('api/v1/skins')// fetch inicia una peticion para buscar el archivo skins.json
 
         .then(res => res.json())//Cuando la peticion termine, convierte el el texto recibido a un .json
         .then(data => {
