@@ -1,0 +1,32 @@
+### Recupera todas las skins
+GET http://localhost:4000/api/v1/skins
+
+### Recupera una skin por ID
+GET http://localhost:4000/api/v1/skins/1
+
+### Recupera 10 skins desde 0
+GET http://localhost:4000/api/v1/skins?cantidad=10&from=0
+
+### Crea una skin 
+POST http://localhost:4000/api/v1/skins
+Content-Type: application/json
+
+{
+  "titulo": "ARMA | Nombre Skin",
+  "modelo": "modelo skin",
+  "imagen": "url imagen",
+  "precio": 1000,
+  "detalle": "FT",
+  "rareza": "covert",
+  "slug": "arma-nombre-skin",
+  "tipo": "arma",
+  "coleccion": "coleccion skin"
+}
+
+### Actualiza una skin
+PUT http://localhost:4000/api/v1/skins/1
+Content-Type: application/json
+
+{
+  "precio": 100000,
+}
