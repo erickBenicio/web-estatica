@@ -40,30 +40,14 @@ body {
     background-color: var(--color-bg-section);
     border-bottom: 2px solid var(--color-primary);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-<<<<<<< HEAD
-    position: sticky;
-    top: 0;
-}
-
-.container-header {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-=======
     height: 60px;
-    /* Altura consistente */
->>>>>>> 24972cc434b9375a02ad65ba885234cdf5fe8229
+    
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    height: 100%;
-    top: 0;
-=======
     justify-content: space-between;
     width: 100%;
     padding:20px;
 
->>>>>>> 24972cc434b9375a02ad65ba885234cdf5fe8229
 }
 
 
